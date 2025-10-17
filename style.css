@@ -1,0 +1,118 @@
+.sidebar {
+  top: 111px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:  81px;
+  background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.sidebar li {
+    float: left;
+}
+.sidebar li a {
+  display: block;
+  color: black;
+  padding: 9px 16px;
+  text-decoration: none;
+}
+
+
+li a.active {
+  background-color: #d4af37;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+}
+ .text {
+      text-align: center;
+      min-width: 500px;
+      max-width: 10000px;
+      background: #fffef9;
+      border: 2px solid #d4af37;
+      width: 60vw;
+      padding: 25px;
+      margin: 120px auto;
+      font-size: 1.1em;
+      white-space: pre-line;
+      box-shadow: 4px 4px #0000;
+    }
+
+body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-image: url('https://www.transparenttextures.com/patterns/old-wall.png');
+      color: #2e2b23;
+    }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, #3b2f2f, #1e1b1b);
+    color: #f5f0e6;
+    text-align: center;
+       z-index: 1000;
+    }
+
+header h1 {
+    
+      font-size: 3em;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+header p {
+      font-style: italic;
+      margin-top: 1rem;
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+.book{
+    border: 3px solid #d4af37;
+    contain: content;
+    width: 490px;
+    background-color: #d4af37;
+    margin: 15px auto;
+}
+
+img {
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px #0000;
+}
+
+  table{
+    border-collapse:collapse;
+    width:60vw;
+    max-width:800px;
+    margin:20px auto;
+    font-family:system-ui;
+}
+
+  th,td{padding:10px;
+    border:1px solid #000;
+    text-align:left;
+}
+
+  thead th {
+    color:#333;
+    background:#d4af37;
+
+}
+tr:nth-child(odd){
+    background:#d4af37;
+}
+
+ul {
+  list-style-type:circle;
+}
